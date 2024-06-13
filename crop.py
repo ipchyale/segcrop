@@ -3,7 +3,8 @@ from skimage.io import imread
 import numpy as np
 import pandas as pd
 import sys
-sys.path.append("/Users/damoncrockett/ivpy/src")
+#sys.path.append("/Users/damoncrockett/ivpy/src")
+sys.path.append("/home/damoncrockett/ivpy/src")
 from ivpy import *
 from ivpy.utils import resize
 from ivpy.extract import extract
